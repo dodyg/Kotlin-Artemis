@@ -32,16 +32,11 @@ public class Bag<E> (capacity : Int = 16) : ImmutableBag<E>{
                 return true;
             }
         }
-
         return false;
     }
 
     public fun contains(o : E): Boolean {
-        for(i in 0..size-1 ) {
-            if(o == data[i])
-                return true;
-        }
-        return false;
+        return data.any({ it == o })
     }
 
     public fun removeAll(bag : Bag<E>) : Boolean {
