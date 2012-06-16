@@ -2,6 +2,7 @@
 import kotlin.modules.*
 fun project() {
     module("Kotlin-Artemis") {
+        sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/ComponentType.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/Component.kt"
         // Boot classpath
         classpath += "F:/Program Files/Java/jdk1.6.0_21/jre/lib/alt-rt.jar"
