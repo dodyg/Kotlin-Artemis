@@ -2,9 +2,11 @@
 import kotlin.modules.*
 fun project() {
     module("Kotlin-Artemis") {
+        sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/tests/ImmutableBagTest.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/ComponentType.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/utils/Bag.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/Component.kt"
+        sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/tests/ComponentTypeTest.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/utils/ImmutableBag.kt"
         // Boot classpath
         classpath += "F:/Program Files/Java/jdk1.6.0_21/jre/lib/alt-rt.jar"
@@ -28,6 +30,7 @@ fun project() {
         // Output directory, commented out
         //         classpath += "F:/GitHub/GitHub/Kotlin-Artemis/out/production/Kotlin-Artemis"
         classpath += "F:/GitHub/GitHub/Kotlin-Artemis/lib/kotlin-runtime.jar"
+        classpath += "F:/GitHub/GitHub/Kotlin-Artemis/lib/junit-4.11-SNAPSHOT-20120416-1530.jar"
         // Java classpath (for Java sources)
         classpath += "C:/Users/Adam/.IdeaIC11/system/compiler/kotlin-artemis.b55273f1/.generated/Android_Maven_Resources_Compiler/Kotlin-Artemis.e5cc464e/production"
         classpath += "C:/Users/Adam/.IdeaIC11/system/compiler/kotlin-artemis.b55273f1/.generated/Android_Maven_Resources_Compiler/Kotlin-Artemis.e5cc464e/test"
