@@ -50,5 +50,7 @@ fun project() {
         classpath += "C:/Users/Adam/.IdeaIC11/system/compiler/kotlin-artemis.b55273f1/.generated/Android_External_Apklib_Extracting_Compiler/Kotlin-Artemis.e5cc464e/test"
         classpath += "C:/Users/Adam/.IdeaIC11/system/compiler/kotlin-artemis.b55273f1/.generated/Android_External_Apklib_Extracting_Compiler/Kotlin-Artemis.e5cc464e/production"
         // Main output
+        // External annotations
+        annotationsPath += "F:/Program Files/JetBrains/IntelliJ IDEA Community Edition 11.1.1/lib/jdkAnnotations.jar"
     }
 }

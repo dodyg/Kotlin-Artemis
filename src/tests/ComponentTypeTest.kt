@@ -10,7 +10,9 @@ class ComponentTypeTest{
         var a = tp.getBit()
         var b = tp.getBit()
 
-        assertTrue({a == 1.toLong() })
-        assertTrue({b == 2.toLong() })
+        print("$a == ${1.toLong()}")
+
+        assertTrue("Instead $a != ${1.toLong()}", {a == 1.toLong() })
+        assertTrue("Instead $b != ${2.toLong()}", {b == 2.toLong() })
     }
 }
