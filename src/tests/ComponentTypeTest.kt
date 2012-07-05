@@ -8,7 +8,7 @@ class ComponentTypeTest{
     test fun initialUse(){
         var tp = artemis.ComponentType()
         var a = tp.getBit()
-        var b = tp.getBit()
+        //var b = tp.getBit()
 
         print("$a == ${1.toLong()}")
 

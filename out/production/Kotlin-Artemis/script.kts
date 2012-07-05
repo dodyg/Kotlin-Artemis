@@ -4,8 +4,12 @@ fun project() {
     module("Kotlin-Artemis") {
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/tests/ImmutableBagTest.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/ComponentType.kt"
+        sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/Entity.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/utils/Bag.kt"
+        sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/utils/Timer.kt"
+        sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/EntityManager.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/Component.kt"
+        sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/World.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/tests/ComponentTypeTest.kt"
         sources += "F:/GitHub/GitHub/Kotlin-Artemis/src/artemis/utils/ImmutableBag.kt"
         // Boot classpath
