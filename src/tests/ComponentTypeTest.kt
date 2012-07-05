@@ -13,6 +13,6 @@ class ComponentTypeTest{
         print("$a == ${1.toLong()}")
 
         assertTrue("Instead $a != ${1.toLong()}", {a == 1.toLong() })
-        assertTrue("Instead $b != ${2.toLong()}", {b == 2.toLong() })
+        //assertTrue("Instead $b != ${2.toLong()}", {b == 2.toLong() })
     }
 }
